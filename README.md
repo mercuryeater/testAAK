@@ -1,4 +1,14 @@
-# React + TypeScript + Vite
+# AAK TEST using React + TypeScript + Vite
+
+On this test only a Barchart is rendered using the library recharts, best practices following architecture were use, atom design used, also concern separation, locating components, types and services in different folders. Also the chart components was built so it can be reused in different parts of the app, selecting also the colors that are going to be displayed.
+
+![screenshot](image.png)
+
+## Deployed site
+
+https://testaak.onrender.com/
+
+##
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
@@ -17,12 +27,12 @@ If you are developing a production application, we recommend updating the config
 export default {
   // other rules...
   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
+    ecmaVersion: "latest",
+    sourceType: "module",
+    project: ["./tsconfig.json", "./tsconfig.node.json", "./tsconfig.app.json"],
     tsconfigRootDir: __dirname,
   },
-}
+};
 ```
 
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
